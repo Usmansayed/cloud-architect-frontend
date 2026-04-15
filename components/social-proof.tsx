@@ -9,7 +9,7 @@ const stats = [
 const testimonials = [
   {
     quote:
-      'Infra.ai surfaced two critical scaling bottlenecks in our API and job queue before launch. We fixed them in review — not in production at 2am.',
+      'strikeloop surfaced two critical scaling bottlenecks in our API and job queue before launch. We fixed them in review  not in production at 2am.',
     author: 'Priya Nair',
     role: 'CTO',
     company: 'B2B SaaS · Series A',

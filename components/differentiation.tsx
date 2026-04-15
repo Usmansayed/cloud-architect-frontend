@@ -23,7 +23,7 @@ const comparison: CompRow[] = [
 ]
 
 const cols: { key: CompField; label: string; featured: boolean }[] = [
-  { key: 'infraai', label: 'Infra.ai', featured: true },
+  { key: 'infraai', label: 'strikeloop', featured: true },
   { key: 'manual', label: 'Manual Setup', featured: false },
   { key: 'templates', label: 'Templates', featured: false },
   { key: 'blackbox', label: 'Black-box AI', featured: false },
@@ -37,7 +37,7 @@ const alternatives = [
   },
   {
     title: 'vs Generic Templates',
-    without: 'Fast start but low workload fit — templates don\'t know your codebase.',
+    without: 'Fast start but low workload fit  templates don\'t know your codebase.',
     with: 'Recommendations tied directly to your routes, queries, and traffic patterns.',
   },
   {
@@ -55,7 +55,7 @@ export function Differentiation() {
         <div className="text-center mb-14">
           <span className="section-chip mb-5 inline-block">Comparison</span>
           <h2 className="text-3xl md:text-4xl font-bold mb-4 leading-[1.1]">
-            How Infra.ai compares{' '}
+            How strikeloop compares{' '}
             <span className="gradient-text">to common alternatives</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
@@ -73,14 +73,14 @@ export function Differentiation() {
                   className="p-3 rounded-xl text-sm"
                   style={{ background: 'rgba(244,63,94,0.06)', border: '1px solid rgba(244,63,94,0.12)' }}
                 >
-                  <p className="text-[10px] font-bold uppercase tracking-widest text-rose-400/60 mb-1">Without Infra.ai</p>
+                  <p className="text-[10px] font-bold uppercase tracking-widest text-rose-400/60 mb-1">Without strikeloop</p>
                   <p className="text-muted-foreground">{item.without}</p>
                 </div>
                 <div
                   className="p-3 rounded-xl text-sm"
                   style={{ background: 'rgba(16,185,129,0.06)', border: '1px solid rgba(16,185,129,0.15)' }}
                 >
-                  <p className="text-[10px] font-bold uppercase tracking-widest text-emerald-600/60 mb-1">With Infra.ai</p>
+                  <p className="text-[10px] font-bold uppercase tracking-widest text-emerald-600/60 mb-1">With strikeloop</p>
                   <p className="text-emerald-700 font-medium">{item.with}</p>
                 </div>
               </div>
@@ -189,7 +189,7 @@ export function Differentiation() {
                   className="p-3 rounded-xl text-sm"
                   style={{ background: 'rgba(16,185,129,0.06)', border: '1px solid rgba(16,185,129,0.14)' }}
                 >
-                  <p className="text-[10px] font-bold uppercase tracking-widest text-emerald-600/60 mb-1">With Infra.ai</p>
+                  <p className="text-[10px] font-bold uppercase tracking-widest text-emerald-600/60 mb-1">With strikeloop</p>
                   <p className="text-emerald-700 font-semibold">{alt.with}</p>
                 </div>
               </div>

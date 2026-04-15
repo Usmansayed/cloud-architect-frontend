@@ -14,7 +14,7 @@ Some landing pages convert as high as **15%** while others barely generate any l
 
 > *If you don't hook someone in the first 5 seconds, you've lost them.*
 
-The **above the fold** section — the area visible without scrolling — is the single most critical part of any landing page.
+The **above the fold** section  the area visible without scrolling  is the single most critical part of any landing page.
 
 - **100%** of users will see this section
 - **60%** of users will never scroll past it
@@ -30,7 +30,7 @@ The **above the fold** section — the area visible without scrolling — is the
 
 #### 2. Sub-Headline
 - Use this to explain *who you are* and *what you do* to achieve the results mentioned in the headline
-- Convey your **USP** — what makes you different from competitors
+- Convey your **USP**  what makes you different from competitors
 
 #### 3. Social Proof Above the Fold
 - Include at least **two forms** of social proof (reviews, testimonials, featured publications)
@@ -60,7 +60,7 @@ The **above the fold** section — the area visible without scrolling — is the
 
 > *Decisions are made with emotion first, then rationalized with logic.*
 
-When users land on your page, they're feeling something — frustration from a problem or excitement about a desired outcome. Your page must tap into that feeling.
+When users land on your page, they're feeling something  frustration from a problem or excitement about a desired outcome. Your page must tap into that feeling.
 
 ### How to Build Emotional Connection
 
@@ -68,10 +68,10 @@ When users land on your page, they're feeling something — frustration from a p
 - The human brain processes images **60,000x faster** than text
 - Use photos that resonate emotionally with your target audience (e.g., happy, smiling people using your product)
 
-#### Through Copy — The Problem-Agitate-Solve (PAS) Framework
-1. **Problem** — Call out the user's pain point clearly
-2. **Agitate** — Make them *feel* the problem; turn up the heat
-3. **Solve** — Present your offering as the clear way out
+#### Through Copy  The Problem-Agitate-Solve (PAS) Framework
+1. **Problem**  Call out the user's pain point clearly
+2. **Agitate**  Make them *feel* the problem; turn up the heat
+3. **Solve**  Present your offering as the clear way out
 
 ### Real Results
 | Client | Change | Lift in Conversions |
@@ -83,7 +83,7 @@ When users land on your page, they're feeling something — frustration from a p
 
 ---
 
-## Lesson 3: Long Landing Pages Don't Kill Conversions — Bad Structure Does
+## Lesson 3: Long Landing Pages Don't Kill Conversions  Bad Structure Does
 
 > *Your landing page is your salesperson. Treat it like one.*
 
@@ -98,11 +98,11 @@ There's no magic "perfect length." A long landing page works fine as long as **e
 ### Mobile-Specific Warning
 - Carousels and drop-down menus get **very low engagement**
 - **What is hidden will not get seen**
-- Always expose reviews on mobile — never hide them in carousels or accordions
+- Always expose reviews on mobile  never hide them in carousels or accordions
 
 ---
 
-## Lesson 4: People Don't Read — They Scan
+## Lesson 4: People Don't Read  They Scan
 
 > *Users read only ~20% of content on a page. The other 80% is scanned.*
 
@@ -113,7 +113,7 @@ Your page must deliver information quickly and efficiently to scanners.
 - Use **headings and subheadings** to structure content
 - Use **bullet points** to highlight key value props
 - **Bold** important text to draw attention
-- Make headlines descriptive and self-contained — assume users will *only* read the headlines
+- Make headlines descriptive and self-contained  assume users will *only* read the headlines
 
 ### The Headline Reframe Test
 Ask yourself: *"If someone reads only my headlines, is the benefit still clear?"*
@@ -132,7 +132,7 @@ Ask yourself: *"If someone reads only my headlines, is the benefit still clear?"
 
 > *People have become deeply skeptical. Your social proof must be verifiable.*
 
-Everyone uses social proof — which means people are now numb to weak or generic versions of it.
+Everyone uses social proof  which means people are now numb to weak or generic versions of it.
 
 ### What Doesn't Work Anymore
 - Repeated "As Featured On" logos with no context
@@ -157,7 +157,7 @@ Include all of the following for each review:
 
 > *Guide the user's eye from the most important element to the least.*
 
-Visual hierarchy is the art of directing attention using design — so users always know where to look next.
+Visual hierarchy is the art of directing attention using design  so users always know where to look next.
 
 ### Tools for Creating Hierarchy
 - Font size
@@ -171,7 +171,7 @@ Visual hierarchy is the art of directing attention using design — so users alw
 - Too many options → **analysis paralysis** → user exits
 
 ### The "Less Is More" Principle
-When you give users too many choices, too many buttons, too many links — they make no choice at all. Simplify ruthlessly.
+When you give users too many choices, too many buttons, too many links  they make no choice at all. Simplify ruthlessly.
 
 ### Real Results
 | Client | Change | Lift in Conversions |
@@ -215,6 +215,6 @@ Stick to what works. Stick to what people are used to. **Clarity always wins.**
 | 2 | Emotion Over Logic | Use images and PAS copy to connect emotionally before converting logically |
 | 3 | Length Isn't the Problem | Structure every section to add value and address objections |
 | 4 | People Scan, Not Read | Make headlines self-sufficient; optimize for skimmers |
-| 5 | Real Social Proof | Add verifiable details — photos, names, sources, and publication quotes |
+| 5 | Real Social Proof | Add verifiable details  photos, names, sources, and publication quotes |
 | 6 | Visual Hierarchy | Guide the eye clearly from headline → sub-headline → CTA |
 | 7 | Simplicity Wins | Follow familiar patterns; clarity beats cleverness every time |

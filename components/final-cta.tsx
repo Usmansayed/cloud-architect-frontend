@@ -50,7 +50,7 @@ export function FinalCTA() {
         {/* Sub */}
         <p className="text-lg text-muted-foreground mb-10 max-w-xl mx-auto leading-relaxed">
           Connect your repository. Get architecture, scaling, cost, and security recommendations
-          — all explained before your team makes any decision.
+          all explained before your team makes any decision.
         </p>
 
         {/* CTA buttons */}

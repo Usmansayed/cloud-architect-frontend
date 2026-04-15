@@ -5,19 +5,19 @@ import { Plus } from 'lucide-react'
 
 const faqs = [
   {
-    question: 'How accurate are Infra.ai recommendations?',
+    question: 'How accurate are strikeloop recommendations?',
     answer:
-      'Recommendations come from deep analysis of your routes, database queries, background jobs, and dependency graph — combined with load assumptions from your code. Every output includes detailed reasoning so your team can validate before approval.',
+      'Recommendations come from deep analysis of your routes, database queries, background jobs, and dependency graph  combined with load assumptions from your code. Every output includes detailed reasoning so your team can validate before approval.',
   },
   {
-    question: 'Can Infra.ai deploy changes automatically?',
+    question: 'Can strikeloop deploy changes automatically?',
     answer:
-      'Not by default. Infra.ai is approval-gated by design. Every recommended action stays pending until your team explicitly approves it. Nothing happens automatically — ever.',
+      'Not by default. strikeloop is approval-gated by design. Every recommended action stays pending until your team explicitly approves it. Nothing happens automatically  ever.',
   },
   {
     question: 'What GitHub access is required?',
     answer:
-      'Only read-only repository access for code analysis. Infra.ai does not need deployment permissions, cloud credentials, or write access to generate infrastructure plans.',
+      'Only read-only repository access for code analysis. strikeloop does not need deployment permissions, cloud credentials, or write access to generate infrastructure plans.',
   },
   {
     question: 'Does it support multi-cloud environments?',
@@ -27,7 +27,7 @@ const faqs = [
   {
     question: 'What if we disagree with the recommended plan?',
     answer:
-      'Modify, reject, or replace any recommendation. Infra.ai is decision support — it surfaces options with tradeoffs explained. Your team makes the final calls, always.',
+      'Modify, reject, or replace any recommendation. strikeloop is decision support  it surfaces options with tradeoffs explained. Your team makes the final calls, always.',
   },
   {
     question: 'Can we use just planning without the monitoring?',
@@ -50,7 +50,7 @@ export function FAQ() {
             <span className="gradient-text">real engineering teams</span>
           </h2>
           <p className="text-muted-foreground text-lg">
-            From teams evaluating Infra.ai for production use.
+            From teams evaluating strikeloop for production use.
           </p>
         </div>
 
@@ -70,7 +70,7 @@ export function FAQ() {
             >
               <button
                 onClick={() => setOpen(open === i ? null : i)}
-                className="w-full px-6 py-5 flex items-center justify-between text-left group"
+                className="w-full px-6 py-5 flex items-center justify-between text-left group transition-colors duration-200 hover:bg-muted/30 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/30"
               >
                 <div className="flex items-center gap-4">
                   <span

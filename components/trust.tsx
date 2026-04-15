@@ -5,7 +5,7 @@ const trustPoints = [
     icon: Lock,
     title: 'Read-only GitHub access',
     description:
-      'Infra.ai analyzes code with read-only permissions. No cloud credentials needed to generate recommendations.',
+      'strikeloop analyzes code with read-only permissions. No cloud credentials needed to generate recommendations.',
     color: '#3b82f6',
   },
   {
@@ -26,7 +26,7 @@ const trustPoints = [
     icon: Shield,
     title: 'Security-first planning',
     description:
-      'Security audits are integrated into the planning phase — not discovered as a post-deploy fire drill.',
+      'Security audits are integrated into the planning phase not discovered as a post-deploy fire drill.',
     color: '#f59e0b',
   },
   {
@@ -48,7 +48,7 @@ const trustPoints = [
 const faqs = [
   {
     q: 'Can this change production without our knowledge?',
-    a: 'No. Infra.ai never auto-applies changes. Every action is approval-gated and requires explicit team sign-off.',
+    a: 'No. strikeloop never auto-applies changes. Every action is approval-gated and requires explicit team sign-off.',
   },
   {
     q: 'How can we trust the recommendations?',
@@ -56,7 +56,7 @@ const faqs = [
   },
   {
     q: 'What if we disagree with parts of the plan?',
-    a: 'Modify, reject, or replace any recommendation. Infra.ai assists decisions — your team always stays in charge.',
+    a: 'Modify, reject, or replace any recommendation. strikeloop assists decisions  your team always stays in charge.',
   },
 ]
 
@@ -72,7 +72,7 @@ export function Trust() {
             <span className="gradient-text">built into every step</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Infrastructure decisions are too critical for black-box automation. Infra.ai is designed for explicit approval and clear accountability.
+            Infrastructure decisions are too critical for black-box automation. strikeloop is designed for explicit approval and clear accountability.
           </p>
         </div>
 
@@ -113,7 +113,7 @@ export function Trust() {
             <div className="lg:w-1/2">
               <h3 className="text-2xl font-bold mb-3">The Approval Gate</h3>
               <p className="text-muted-foreground mb-4 leading-relaxed text-sm">
-                Every Infra.ai recommendation sits in a pending queue until explicitly approved. Nothing gets applied silently — ever.
+                Every strikeloop recommendation sits in a pending queue until explicitly approved. Nothing gets applied silently  ever.
               </p>
               <div className="flex flex-wrap gap-2">
                 {['Read-only access', 'No auto-deploy', 'Team approval required'].map((tag) => (
@@ -155,7 +155,7 @@ export function Trust() {
                   {[
                     { label: 'Repository', value: 'github.com/acme/payments-api', color: 'oklch(0.45 0.20 260)' },
                     { label: 'Monthly cost', value: '$2,840/month (↓18%)', color: '#059669' },
-                    { label: 'Risk level', value: 'Low — 2 minor issues', color: '#b45309' },
+                    { label: 'Risk level', value: 'Low  2 minor issues', color: '#b45309' },
                     { label: 'Stack', value: 'ECS Fargate + RDS t3.medium', color: 'var(--foreground)' },
                   ].map((row, i) => (
                     <div key={i} className="flex justify-between items-center text-sm">
@@ -168,7 +168,7 @@ export function Trust() {
                 </div>
                 <div className="px-4 pb-4 flex gap-2">
                   <button
-                    className="flex-1 py-2 rounded-lg text-sm font-semibold transition-all hover:shadow-sm"
+                    className="flex-1 py-2 rounded-lg text-sm font-semibold transition-colors duration-200 hover:bg-[rgba(16,185,129,0.16)] cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500/30"
                     style={{
                       background: 'rgba(16,185,129,0.1)',
                       color: '#059669',
@@ -178,7 +178,7 @@ export function Trust() {
                     ✓ Approve & Apply
                   </button>
                   <button
-                    className="px-4 py-2 rounded-lg text-sm font-medium transition-all"
+                    className="px-4 py-2 rounded-lg text-sm font-medium transition-colors duration-200 hover:bg-muted/40 hover:text-foreground hover:border-accent/25 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/30"
                     style={{
                       background: 'transparent',
                       color: 'var(--muted-foreground)',

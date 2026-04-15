@@ -17,10 +17,10 @@ const openSans = Open_Sans({
 
 export function Hero() {
   return (
-    <section className="px-4 py-12 md:py-16 relative overflow-hidden">
+    <section className="px-3 sm:px-4 pt-2.5 pb-8 sm:py-12 md:py-16 relative overflow-hidden">
       <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_75%_15%,rgba(59,130,246,0.08),transparent_42%)]" />
-      <div className="relative z-10 border border-border bg-background p-6 md:p-10 grid lg:grid-cols-2 gap-10 md:gap-14 items-center">
-        <div className="order-2 lg:order-2 relative flex justify-center lg:justify-end -mt-2 md:-mt-3 lg:pr-4">
+      <div className="relative z-10 border border-border bg-background p-5 sm:p-6 md:p-10 grid lg:grid-cols-2 gap-8 sm:gap-10 md:gap-14 items-center">
+        <div className="order-1 lg:order-2 relative flex justify-center lg:justify-end lg:-mt-2 md:-mt-3 lg:pr-4">
           <div className="absolute -top-8 right-2 w-40 h-40 rounded-full bg-accent/15 blur-2xl" />
           <div className="absolute -bottom-8 left-8 w-36 h-36 rounded-full bg-blue-300/30 blur-2xl" />
 
@@ -28,49 +28,58 @@ export function Hero() {
             <div className="relative overflow-hidden rounded-2xl">
               <Image
                 src="/hero.svg"
-                alt="Infra.ai visualization"
+                alt="strikeloop visualization"
                 width={560}
                 height={560}
-                className="w-full max-w-[285px] sm:max-w-[360px] lg:max-w-[408px] h-auto relative z-10 mix-blend-multiply"
+                className="w-full max-w-[220px] xs:max-w-[260px] sm:max-w-[340px] lg:max-w-[408px] h-auto relative z-10 mix-blend-multiply"
                 priority
               />
             </div>
 
-            <div className="absolute -left-8 top-8 hidden sm:flex items-center gap-2 px-3 py-2 rounded-lg border border-border bg-card shadow-sm z-20">
+            <div className="absolute -left-6 sm:-left-8 top-8 hidden sm:flex items-center gap-2 px-3 py-2 rounded-lg border border-border bg-card shadow-sm z-20">
               <DollarSign className="w-4 h-4 text-accent" />
               <span className="text-xs font-medium">Projected savings: -$620/mo</span>
             </div>
-            <div className="absolute -right-12 bottom-36 hidden sm:flex items-center gap-2 px-3 py-2 rounded-lg border border-border bg-card shadow-sm z-20">
+            <div className="absolute -right-8 sm:-right-12 bottom-28 sm:bottom-36 hidden sm:flex items-center gap-2 px-3 py-2 rounded-lg border border-border bg-card shadow-sm z-20">
               <Activity className="w-4 h-4 text-accent" />
               <span className="text-xs font-medium">Load risk: medium</span>
             </div>
           </div>
         </div>
 
-        <div className="order-1 lg:order-1">
-          <Badge variant="outline" className="mb-5 px-3 py-1.5 text-xs sm:text-sm bg-card">
+        <div className="order-2 lg:order-1">
+          <Badge variant="outline" className="mb-4 sm:mb-5 px-3 py-1.5 text-xs sm:text-sm bg-card">
             For developers, CTOs, and startup teams shipping fast
           </Badge>
 
-          <h1 className={`${ubuntu.className} text-2xl sm:text-3xl md:text-[36px] font-bold mb-5 leading-[1.08] text-balance tracking-tight`}>
+          <h1 className={`${ubuntu.className} text-[26px] xs:text-[28px] sm:text-[30px] md:text-[36px] font-bold mb-4 sm:mb-5 leading-[1.1] text-balance tracking-tight`}>
             Choose the right infrastructure decisions before they become expensive mistakes.
           </h1>
 
-          <p className={`${openSans.className} text-gray-800 sm:text-md md:text-[17px] font-normal mb-7 text-balance`}>
-            Infra.ai integrates with your codebase and cloud context to evaluate architecture, scaling, cost, and security options—then explains tradeoffs so your team can approve with confidence.
-          </p>
+          <p className={`${openSans.className} text-gray-800 text-[15.4px] sm:text-md md:text-[17px] font-medium mb-5 sm:mb-7 text-balance`}>
+          strikeloop integrates with your codebase and cloud context to analyze, simulate, and validate architecture, scaling, cost, and security decisions, then explains tradeoffs for confident approval.
+           </p>
 
-          <div className="mb-7 text-sm font-sans font-medium text-[#444]">
+          <div className="mb-5 sm:mb-7 sm:text-[13px] max-sm:text-[11px] font-sans font-medium text-[#444]">
             <span>Read-only access • No auto-deploy • Team approval required</span>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-3">
-            <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-sm">
-              Analyze my repo
-              <ArrowRight className="w-4 h-4 ml-2" />
+          <div className="flex flex-col xs:flex-row gap-3">
+            <Button size="lg" className="w-full xs:w-auto bg-accent hover:bg-accent/90 text-accent-foreground shadow-sm" asChild>
+              <a href="#waitlist">
+                Analyze my repo
+                <ArrowRight className="w-4 h-4 ml-2" />
+              </a>
             </Button>
-            <Button size="lg" variant="outline" className="border-border hover:bg-card">
-              See decision report
+            <Button
+              size="lg"
+              variant="outline"
+              className="w-full xs:w-auto border-border text-foreground hover:bg-card hover:text-foreground cursor-pointer"
+              asChild
+            >
+              <a href="#waitlist">
+                See decision report
+              </a>
             </Button>
           </div>
         </div>
@@ -83,7 +92,7 @@ export function Hero() {
             <div className="rounded-xl border border-border bg-background p-2">
               <Image
                 src="/hero.svg"
-                alt="Infra.ai decision intelligence visualization"
+                alt="strikeloop decision intelligence visualization"
                 width={640}
                 height={360}
                 className="w-full h-auto rounded-lg"

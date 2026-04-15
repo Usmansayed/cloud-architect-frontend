@@ -12,7 +12,7 @@ const features = [
     icon: AlertCircle,
     title: 'High-signal, actionable alerts',
     description:
-      'Get alerts tied to root causes and next steps — not noisy dashboards with false positives and zero context.',
+      'Get alerts tied to root causes and next steps  not noisy dashboards with false positives and zero context.',
     color: '#f59e0b',
   },
   {
@@ -51,10 +51,10 @@ export function Monitoring() {
           <span className="section-chip mb-5 inline-block">Continuous Monitoring</span>
           <h2 className="text-3xl md:text-4xl font-bold mb-4 leading-[1.1]">
             After deployment,{' '}
-            <span className="gradient-text">Infra.ai keeps watching</span>
+            <span className="gradient-text">strikeloop keeps watching</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Infrastructure evolves over time. Infra.ai detects drift early and responds with measurable options before problems become incidents.
+            Infrastructure evolves over time. strikeloop detects drift early and responds with measurable options before problems become incidents.
           </p>
         </div>
 
@@ -93,10 +93,10 @@ export function Monitoring() {
               }}
             >
               <h4 className="font-semibold text-sm text-emerald-700 mb-1.5">
-                No silent changes — ever
+                No silent changes  ever
               </h4>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                Infra.ai can queue optimization actions, but execution always requires explicit team approval. Your team controls production risk.
+                strikeloop can queue optimization actions, but execution always requires explicit team approval. Your team controls production risk.
               </p>
             </div>
           </div>
@@ -123,7 +123,7 @@ export function Monitoring() {
                 <div className="terminal-dot" style={{ background: '#ffbd2e' }} />
                 <div className="terminal-dot" style={{ background: '#27c93f' }} />
                 <span className="ml-2 text-[10px]" style={{ color: 'rgba(255,255,255,0.25)' }}>
-                  infra.ai — cost & scaling monitor
+                  strikeloop  cost & scaling monitor
                 </span>
               </div>
               <div className="terminal-body space-y-0.5">
